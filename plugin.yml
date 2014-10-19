@@ -1,0 +1,15 @@
+name: BayingHelp
+main: baying.bayinghelp.BayingHelp
+version: 2.0
+author: baying
+
+commands:
+   bload:
+    description: 重载BayingHelp插件配置文件
+    usage: /bload
+    permission: byhp.reload
+    permission-message: 你没有使用该命令的权限
+permissions:
+  byhp.reload:
+    description: 允许你重新载入BayingHelp插件的配置文件
+    default: op
